@@ -25,17 +25,53 @@
     </nav>
 
 <main>
+    <div class="car-img">
+        <img src="assets/images/parked_car.jpg" class="car" alt="a parked car, behind a bush">
+    </div>
     <section id="about">
-<div class="car-img">
-    <img src="assets/images/parked_car.jpg" class="car" alt="a parked car, behind a bush">
-</div>
-<div class="car-text">
-    <h1>Cars & Coffee</h1>
-    <p>Come along to our cars and coffee events! <br> Get a free coffee on your first visit!</p>
-</div>
+        <div>
+            <h1 id="subs" class="uppercase text-center yellow-background"> About Auto Brew</h1>
+            <p id="about-cont">Founded in 2023, Auto Brew aims to deliver an experience like no other.<br> With consistently run events and plain relaxing 
+            atmosphere, we're the coolest place to come check out.<br> Hop into the showroom cafe and take a lot at some priceless cars,
+            while you sip on our award winning coffee.<br> Open every day, check out our operating to see when we're next open.</p>
+        </div>
+        <div id="opening-hours">
+            <table class="text-center">
+                <tr>
+                    <th></th>
+                    <th>Open</th>
+                    <th>Close</th>
+                </tr>
+                <tr>
+                    <td>Mon - Fri</td>
+                    <td>09:30</td>
+                    <td>18:00</td>
+                </tr>
+                <tr>
+                    <td>Weekend</td>
+                    <td>10:00</td>
+                    <td>16:00</td>
+                </tr>
+            </table>
+        </div>
     </section>
 
     <section id="member">
+        <div>
+            <h1 id="subs" class="uppercase text-center yellow-background"> Become an Auto Brew Member</h1>
+            <p class="text-center">Become a member of the Auto-Brewers today!<br>Just complete the form below for a host of benefits. </p>
+        </div>
+        <form action="example.html" method="post">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="fname" placeholder="First Name" required>
+            <label for="lname">Surname</label>
+            <input type="text" id="lname" name="lname" placeholder="Surname" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <Input type="submit" value="submit">
+
+
+        </form>
 
     </section>
 
