@@ -70,61 +70,68 @@ img {
 
 }
 
-#about-cont {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    font-size: large;
-    text-align: center;
-}
+@media screen and (max-width: 1200px) {
+    .car-img {
+        width: 50%;
+        height: 1200px;
+        margin: 0 auto;
+    }
 
-table {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
+    #about-cont {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        font-size: large;
+        text-align: center;
+    }
 
-#subs {
-    color: white;
-    padding: 1rem;
-    font-weight: bold;
-    font-size: x-large;
-}
+    table {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
 
-form {
-    text-align: center;
-    padding: 25px;
-    margin: 25px auto;
-}
+    #subs {
+        color: white;
+        padding: 1rem;
+        font-weight: bold;
+        font-size: x-large;
+    }
 
-input[type=submit] {
-    margin-top: 20px;
-}
+    form {
+        text-align: center;
+        padding: 25px;
+        margin: 25px auto;
+    }
 
-.member {
-    font-size: large;
-}
+    input[type=submit] {
+        margin-top: 20px;
+    }
 
-.contact {
-    line-height: 25%;
-    font-size: large;
-}
+    .member {
+        font-size: large;
+    }
 
-footer {
-    height: 150px;
-}
+    .contact {
+        line-height: 25%;
+        font-size: large;
+    }
 
-.social-networks {
-    text-align: center;
-}
+    footer {
+        height: 150px;
+    }
 
-.social-networks>li {
-    display: inline;
-}
+    .social-networks {
+        text-align: center;
+    }
 
-.social-networks i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: #3a3a3a;
-}
+    .social-networks>li {
+        display: inline;
+    }
+
+    .social-networks i {
+        font-size: 160%;
+        margin: 1%;
+        padding: 5%;
+        color: #3a3a3a;
+    }
