@@ -1,0 +1,29 @@
+/* heading and logo style */
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: darkgrey;
+
+}
+
+#logo {
+    float: left;
+    font-size: 300%;
+}
+
+/* navigation */
+
+#navigation {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;
+    letter-spacing: 2px;
+    color: darkgrey;
+}
+
+#navigation li {
+    float: right;
+    margin-right: 25px;
+    list-style-type: none;
+}
