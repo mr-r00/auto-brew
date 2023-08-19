@@ -1,44 +1,52 @@
-/* heading and logo style */
-
-h1 {
+body {
     font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    font-size: xx-large;
+    line-height: 0%;
+}
+
+header p {
+    font-size: large;
+    margin-top: 5px;
+    font-style: italic;
+}
+
+nav {
+    padding: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 1rem;
+    font-weight: bold;
+    font-size: x-large;
+
+}
+
+nav a:hover {
+    color: grey;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.yellow-background {
+    background-color: goldenrod;
+}
+
+.uppercase {
     text-transform: uppercase;
-    letter-spacing: 1px;
-    color: darkgrey;
-
 }
 
-#logo {
-    float: left;
-    font-size: 300%;
-}
-
-/* navigation */
-
-#navigation {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 120%;
-    letter-spacing: 2px;
-    color: darkgrey;
-    text-decoration: none;
-}
-
-#navigation li {
-    float: right;
-    margin-right: 25px;
-    list-style-type: none;
-}
-
-#navigation,
-#logo {
-    line-height: 60px;
-}
-
-#navigation a {
-    text-decoration: none;
-    color: inherit;
-}
-
-.active {
-    border: 1px solid darkgrey;
+img {
+    width: 50%;
 }
