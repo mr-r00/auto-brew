@@ -49,8 +49,24 @@ nav li {
     text-transform: uppercase;
 }
 
+.photo-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
 img {
-    width: 50%;
+    max-width: 100%
+}
+
+.car-img {
+    flex-basis: 40%
+}
+
+.car-txt {
+    font-size: 20px;
+    padding-left: 20px;
+
 }
 
 #about-cont {
@@ -76,4 +92,38 @@ table {
 
 form {
     text-align: center;
+    padding: 25px;
+    margin: 25px auto;
+}
+
+input[type=submit] {
+    margin-top: 20px;
+}
+
+.member {
+    font-size: large;
+}
+
+.contact {
+    line-height: 25%;
+    font-size: large;
+}
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks>li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
 }
